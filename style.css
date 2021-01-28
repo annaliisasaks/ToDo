@@ -1,0 +1,41 @@
+.checked{
+            background-color:red;
+        }
+        
+        .task {
+            width:70%;
+            text-align:left;
+            padding:0;
+        }
+        
+        ul {
+            text-align: center;
+            list-style: inside;
+            display:inline-block;        
+            align-items:center;
+
+        }
+        
+        .delButton{
+            float:right;
+            border:none;
+            background-color:#d11a2a;
+            color:white;
+            width:40px;
+            font-size:10px;
+            height:100%;
+        }
+        
+        input[type=checkbox] {
+            transform: scale(1.7);
+            margin-right:10px;
+        }
+        
+        #add-task-btn{
+            border:none;
+            background-color:#32CD32;
+            color:white;
+            border-radius:7px;
+            width:45px;
+            height:30px;
+        }
